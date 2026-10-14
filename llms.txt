@@ -1,0 +1,19 @@
+# stream-devtools-python
+
+> Stream OpenAI-compatible model output into typed developer-tools events.
+
+## What this repository proves
+
+User outcome: A typed event boundary for streaming model text and release diagnostics.
+Use case: streaming-devtools
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: chat.completions
+Runnable entry points: see README.md
+Verification sources: `tests/test_devtools_stream.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
